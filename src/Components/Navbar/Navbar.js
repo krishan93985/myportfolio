@@ -7,7 +7,7 @@ import "./Navbar.css";
 function NavBar() {
   return (
     <div className="nav sticky" id="navbar">
-      <a href="me" className="icon">
+      <a href="https://krishan93985.github.io/myportfolio/" className="icon">
         <img src={icon} alt="icon" width="100px" height="100%" />
       </a>
       <a href="https://www.codechef.com/users/krishan12345" className="cp">

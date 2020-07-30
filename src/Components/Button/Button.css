@@ -20,3 +20,9 @@
     text-decoration:none;
     background-image: linear-gradient(135deg, #fc00ff 0%, #5691c8 100%);
 }
+
+@media only screen and (max-width:950px){
+    .button{
+        font-size:1.1rem ;
+    }
+}

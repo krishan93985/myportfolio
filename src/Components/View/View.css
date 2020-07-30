@@ -13,7 +13,7 @@
 }
 
 .view h1{
-    font-size: 3.8rem;
+    font-size: 3.5rem;
     font-weight: 625;
     margin-bottom: 1rem;
     text-align: left;
@@ -32,11 +32,11 @@
 }
 
 .hire{
-    padding:0.5rem 1.3rem;
+    padding:0.4rem 1.2rem;
     background-image: linear-gradient(135deg, #ef32d9 0%, #89fffd 100%);
-    border: 3px solid transparent;
+    border: 2px solid transparent;
     background-clip:text;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: bold;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

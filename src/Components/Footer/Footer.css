@@ -37,5 +37,8 @@
     font-size: medium;
 }
 
-@media only screen and (max-width:550px){
+@media only screen and (max-width:540px){
+    .codechef,.profile{
+        cursor:none;
+    }
 }

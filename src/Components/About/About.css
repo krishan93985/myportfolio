@@ -43,7 +43,7 @@
     width:90%;
     color:#fff;
     justify-self: left;
-    padding-bottom:35px
+    padding-bottom:50px
 }
 
 .desc li{
@@ -55,10 +55,6 @@
     padding-bottom:11px;
 }
 
-.desc p::first-letter{
-    font-size:20px;
-}
-
 .desc span{
     color:black;
 }
@@ -67,7 +63,7 @@
     padding:0.3rem 1rem;
     border: 2px solid transparent;
     background-clip:text;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: bold;
     -webkit-background-clip: text;
     -webkit-text-fill-color: white;
@@ -112,7 +108,7 @@
     }
     .about h1{
         font-size:2.2rem;
-        font-weight:475;
+        font-weight:500;
     }
 }
 
@@ -121,6 +117,10 @@
         width:55%;
     }
     .desc{
-        font-size:0.6rem;
+        width:85%;
+        padding-bottom:30px;
+    }
+    .desc li{
+        font-size:1.2rem;
     }
 }

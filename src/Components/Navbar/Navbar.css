@@ -3,7 +3,7 @@
     background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: rgb(255, 255, 255);
-    font-size:1.3rem;
+    font-size:1.1rem;
     height:3.4em;
     display:flex;
     align-items:center;
@@ -35,7 +35,7 @@
 
 .icon{
     margin-right:auto;
-    margin-left:15px;
+    margin-left:13px;
 }
 .cp img{
     width:75px;

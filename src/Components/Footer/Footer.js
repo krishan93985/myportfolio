@@ -13,17 +13,17 @@ function Footer() {
             className="profile"
             href="https://www.linkedin.com/in/krishan-gopal-1a05a7175"
           >
-            <img src={linkedin} alt="icon" width="50px" height="50px" />
+            <img src={linkedin} alt="icon" width="45px" height="45px" />
           </a>
           <a className="profile" href="https://github.com/krishan93985">
-            <img src={githublink} alt="icon" width="50px" height="50px" />
+            <img src={githublink} alt="icon" width="45px" height="45px" />
           </a>
           <a href="https://www.codechef.com/users/krishan12345">
             <img
               src={codechef}
               alt="icon"
-              width="80px"
-              height="50px"
+              width="75px"
+              height="45px"
               className="codechef"
               style={{ padding: "20px" }}
             />

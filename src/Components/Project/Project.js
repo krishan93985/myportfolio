@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "../Button/Button";
-//import List from "./List";
 import "./Project.css";
 
 const btnName = "See Live";

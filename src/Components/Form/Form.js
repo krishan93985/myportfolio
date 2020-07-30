@@ -34,7 +34,6 @@ function Form() {
       {mailSent ? (
         <div className="done">
           <p data-aos="fade-in" data-aos-once="true">
-            {" "}
             <br /> Super Excited!!! <br />I will get in touch with you soon
           </p>
         </div>
@@ -52,15 +51,17 @@ function Form() {
               <input
                 type="text"
                 name="name"
-                placeholder="Name"
+                placeholder="Name*"
                 onChange={(event) => setName(event.target.value)}
                 className="field"
+                autoComplete="off"
                 required
               />
               <input
                 type="email"
                 name="email"
-                placeholder="Email"
+                placeholder="Email*"
+                autoComplete="off"
                 onChange={(event) => setEmail(event.target.value)}
                 required
                 className="field"

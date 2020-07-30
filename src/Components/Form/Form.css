@@ -1,14 +1,11 @@
 .done{
-    text-align: center;
-    padding:12rem;
-    max-width: 33%;
-    font-size: 1.7rem;
-    font-weight: 500;
-    margin:auto;
-
+    padding:3rem 0;
 }
 
 .done p{
+    text-align:center;
+    padding:6rem;
+    margin:1.5rem 0;
     color:rgb(179, 248, 231);
 }
 
@@ -33,7 +30,6 @@
     background:white;
     color:#6e6d6d;
     min-width:33%;
-    max-height:450px;
     display:grid;
     grid-gap:28px;
     grid-template-rows: repeat(2,1fr) 2fr 1fr;
@@ -54,16 +50,17 @@ input,textarea{
   padding:6px;
   background-color: #eee;
   border-color: rgb(245, 67, 201);
-  font-size: 1.4em;
+  font-size: 1.1em;
   font-family: 'Mukta', sans-serif;
   font-weight: 600;
+  resize:none;
 }
 .btn{
     justify-self: left;
     text-decoration:none;
     padding:0.4rem 0.7rem;
     background-image: linear-gradient(135deg, #fc00ff 0%, #5691c8 100%);
-    border: 1px solid rgb(72, 60, 240);
+    border: 1px solid blue;
     background-clip:text;
     font-size: 1.1rem;
     font-weight: bold;
@@ -81,9 +78,6 @@ input,textarea{
 }
 
 @media only screen and (max-width:950px){
-       .done {
-           font-size: 1.4rem;
-       }
        .form{
            clip-path: none;
        }
@@ -96,4 +90,15 @@ input,textarea{
        input,textarea{
            font-size:1.1rem;
        }
+       .btn{
+        padding:0.3rem 0.6rem;
+        font-size: 1rem;
+       }
+}
+
+@media only screen and (max-width:650px){
+    .done p{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
 }
