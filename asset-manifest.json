@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/myportfolio/static/css/main.b666d166.chunk.css",
+    "main.js": "/myportfolio/static/js/main.022c1f4a.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.022c1f4a.chunk.js.map",
+    "runtime-main.js": "/myportfolio/static/js/runtime-main.699ab192.js",
+    "runtime-main.js.map": "/myportfolio/static/js/runtime-main.699ab192.js.map",
+    "static/css/2.4707e12a.chunk.css": "/myportfolio/static/css/2.4707e12a.chunk.css",
+    "static/js/2.9836c586.chunk.js": "/myportfolio/static/js/2.9836c586.chunk.js",
+    "static/js/2.9836c586.chunk.js.map": "/myportfolio/static/js/2.9836c586.chunk.js.map",
+    "index.html": "/myportfolio/index.html",
+    "precache-manifest.9f217d082abb9c9d1e33eafcebf0ed70.js": "/myportfolio/precache-manifest.9f217d082abb9c9d1e33eafcebf0ed70.js",
+    "service-worker.js": "/myportfolio/service-worker.js",
+    "static/css/2.4707e12a.chunk.css.map": "/myportfolio/static/css/2.4707e12a.chunk.css.map",
+    "static/css/main.b666d166.chunk.css.map": "/myportfolio/static/css/main.b666d166.chunk.css.map",
+    "static/js/2.9836c586.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.9836c586.chunk.js.LICENSE.txt",
+    "static/media/codechef.png": "/myportfolio/static/media/codechef.b0cde580.png",
+    "static/media/css3.png": "/myportfolio/static/media/css3.c9421be5.png",
+    "static/media/expressjs.jpeg": "/myportfolio/static/media/expressjs.831c14fc.jpeg",
+    "static/media/github.png": "/myportfolio/static/media/github.12048fae.png",
+    "static/media/githublink.jpg": "/myportfolio/static/media/githublink.e7af29fc.jpg",
+    "static/media/linkedin.jpg": "/myportfolio/static/media/linkedin.669c9265.jpg",
+    "static/media/portfolio.png": "/myportfolio/static/media/portfolio.abdd0512.png",
+    "static/media/postgresql.gif": "/myportfolio/static/media/postgresql.def6ba4a.gif",
+    "static/media/profile.jpeg": "/myportfolio/static/media/profile.49df7385.jpeg",
+    "static/media/react.png": "/myportfolio/static/media/react.0bf77413.png",
+    "static/media/redux.png": "/myportfolio/static/media/redux.4912f6d8.png",
+    "static/media/smartbrain.png": "/myportfolio/static/media/smartbrain.5c7157f3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.699ab192.js",
+    "static/css/2.4707e12a.chunk.css",
+    "static/js/2.9836c586.chunk.js",
+    "static/css/main.b666d166.chunk.css",
+    "static/js/main.022c1f4a.chunk.js"
+  ]
+}
