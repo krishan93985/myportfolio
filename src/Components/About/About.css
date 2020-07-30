@@ -1,0 +1,126 @@
+.about{
+    color:white;
+    display:flex;
+    flex-direction:column;
+    padding:2rem;
+    width:100%;
+    align-items:center;
+    justify-content: center;
+    background-image: linear-gradient(135deg, #fc00ff 0%, #5691c8 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
+
+.about h1{
+    color:white;
+    margin-top:25px;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 600;
+    padding:0.8em 0 0 0;
+}
+
+.about li span{
+    color:#0f0c29;
+}
+
+.sec{
+    display:grid;
+    grid-gap:50px;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    align-items: center;
+    margin-bottom:8rem;
+}
+
+.sec img{
+    width:45%;
+    height:330px;
+    border-radius:15px;
+    justify-self: center;
+}
+
+.desc{
+    width:90%;
+    color:#fff;
+    justify-self: left;
+    padding-bottom:35px
+}
+
+.desc li{
+    color:whitesmoke;
+    font-family:'Mukta',sans-serif;
+    line-height:2rem;
+    font-size:22px;
+    letter-spacing: 1px;
+    padding-bottom:11px;
+}
+
+.desc p::first-letter{
+    font-size:20px;
+}
+
+.desc span{
+    color:black;
+}
+
+.resume{
+    padding:0.3rem 1rem;
+    border: 2px solid transparent;
+    background-clip:text;
+    font-size: 1.3rem;
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: white;
+    text-decoration:none;
+    background-image: linear-gradient(135deg, #ef32d9 0%, #89fffd 100%);
+    border-image: linear-gradient(135deg, #fff,0%,#fff);
+    border-image-slice: 1;
+    transition:border-width ease-out 20ms;
+}
+
+.resume:hover{
+    -webkit-text-fill-color:#5691c8;
+    border-width: 3px;
+    background-clip: border-box;
+    -webkit-background-clip: border-box;
+    text-decoration:none;
+    background-image: linear-gradient(to right,rgb(255, 255, 255),white);
+}
+
+@media only screen and (max-width:1200px){
+    .sec{
+        grid-template-columns: repeat(auto-fill,minmax(390px,1fr));
+    }
+    .about{
+        clip-path: none;
+    }
+    .about h1{
+        font-size:2.5rem;
+        font-weight:500;
+    }
+}
+
+@media only screen and (max-width:950px){
+    .desc{
+        text-align:center;
+        justify-self:center;
+        font-size:0.8rem;
+    }
+    .about{
+        clip-path: none;
+        padding:0;
+    }
+    .about h1{
+        font-size:2.2rem;
+        font-weight:475;
+    }
+}
+
+@media only screen and (max-width:620px){
+    .sec img{
+        width:55%;
+    }
+    .desc{
+        font-size:0.6rem;
+    }
+}

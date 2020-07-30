@@ -1,0 +1,81 @@
+.nav, .contain{
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(255, 255, 255);
+    font-size:1.3rem;
+    height:3.4em;
+    display:flex;
+    align-items:center;
+    justify-content: flex-end;
+    z-index:1;
+    transition:top 0.3s;
+}
+
+#lastLi{
+    margin-right:4rem;
+}
+
+.nav > .active{
+    color: #ffe989;
+}
+
+.nav span{
+    padding:2rem;
+    max-height:100%;
+    cursor: pointer;
+}
+
+.sticky{
+    position:fixed;
+    width:100%;
+    margin:0;
+    top:-3.4em;
+}
+
+.icon{
+    margin-right:auto;
+    margin-left:15px;
+}
+.cp img{
+    width:75px;
+    height:45px;
+}
+
+@media only screen and (max-width:720px){
+    .icon{
+        display:none;
+    }
+    .cp{
+        width:65px;
+    }
+}
+
+@media only screen and (max-width:660px){
+    .cp{
+        display:none;
+    }
+    .nav span{
+        cursor: auto;
+        padding:1.5rem;
+    }
+    .nav{
+        font-size:0.8rem;
+        height:3rem; 
+        justify-content: center;
+    }
+    #lastLi{
+        margin:0;
+    }
+ }
+
+ @media only screen and (max-width:350px){
+    .cp{
+        display:none;
+    } 
+    .nav{
+         font-size:0.6rem;
+         height:100%;
+     } 
+}
+    

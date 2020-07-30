@@ -1,0 +1,41 @@
+.foot{
+    padding:3rem 3rem 0 3rem;
+    display:flex;
+    flex-direction: column;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.foot span{
+    display:flex;
+    justify-content: center;
+}
+
+.foot .profile{
+    padding:20px;
+}
+
+.foot .profile img{
+    border-radius:80%;
+    background: white;
+    
+}
+
+.foot .profile img:hover, .codechef:hover{
+    margin-top: -5px;
+}
+
+.hr{
+    border:0.5px solid rgb(161, 159, 159);
+    width:25%;
+}
+
+.foot p{
+    text-align: center;
+    color:rgb(224, 219, 219);
+    font-size: medium;
+}
+
+@media only screen and (max-width:550px){
+}
