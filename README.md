@@ -3,4 +3,4 @@ Contains few Major Projects and link to other projects on github, About me and m
 
 # what i learned
 How to send emails from a Node, Expres, server \
-I practiced all my frontend skills to build this "kind of" static website \
+I practiced all my frontend skills to build this "kind of" static website 
