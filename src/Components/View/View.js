@@ -5,11 +5,11 @@ import "./View.css";
 function View() {
   return (
     <div className="view">
-      <h1 data-aos="fade-right" data-aos-delay="180" data-aos-once="true">
+      <h1 data-aos="fade-up" data-aos-delay="180" data-aos-once="true">
         Hi my name is <span>Krishan Gopal</span>
         <br />I am the developer you need.
       </h1>
-      <p data-aos="fade-right" data-aos-delay="200" data-aos-once="true">
+      <p>
         <Link
           activeClass="active"
           to="about"

@@ -6,11 +6,13 @@ function Form() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [mailSent, setMailSent] = useState(false);
+  const [isPending, setPending] = useState(false);
 
   const sendMail = async (event) => {
     event.preventDefault();
     try {
       if (name && email && message) {
+        setPending(true);
         const response = await fetch("https://lit-hollows-13144.herokuapp.com/contact", {
           method: "post",
           headers: { "Content-type": "application/json" },
@@ -21,7 +23,10 @@ function Form() {
           }),
         });
         const toJson = await response.json();
-        if (toJson) setMailSent(true);
+        if (toJson) {
+          setMailSent(true);
+          setPending(false);
+        }
         else alert("Can't send Mail!");
       } else alert("Cannot send Empty field!");
     } catch (e) {
@@ -73,6 +78,9 @@ function Form() {
               <button className="btn" type="submit">
                 Send message
               </button>
+              {
+                (isPending)?<p className="sending">Sending...</p>:<p className="not-sending"></p>
+              }
               <span>Tel: +918851015687</span>
             </form>
           </section>

@@ -55,6 +55,7 @@ input,textarea{
   font-weight: 600;
   resize:none;
 }
+
 .btn{
     justify-self: left;
     text-decoration:none;
@@ -75,6 +76,19 @@ input,textarea{
     -webkit-text-fill-color: white;
     transform: scale(1.05);
     cursor: pointer;
+}
+
+.sending{
+    width:100%;
+    margin:0;
+    font-size:17px;
+    color:rgb(38, 141, 13);
+}
+
+.not-sending{
+    width:0;
+    height:0;
+    display:none;
 }
 
 @media only screen and (max-width:950px){
