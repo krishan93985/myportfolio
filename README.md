@@ -1,5 +1,5 @@
 # myportfolio
-Contains few Major Projects and link to other projects on github, About me and my passion. \
+Contains few Major Projects and link to other projects on github, About me and my passion. 
 
 # what i learned
 How to send emails from a Node, Expres, server \
