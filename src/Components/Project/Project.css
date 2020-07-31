@@ -85,3 +85,9 @@
          margin-top:4rem;        
     }
 }
+
+@media only screen and (max-width:400px){
+    .Code,.area img{
+        cursor:none;
+    }    
+}

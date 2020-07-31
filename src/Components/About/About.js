@@ -1,5 +1,6 @@
 import React from "react";
 import profile from "./profile.jpeg";
+import resume from "./resume.pdf";
 import "./About.css";
 
 function About() {
@@ -53,7 +54,7 @@ function About() {
               shift in me everyday.
             </li>
           </ul>
-          <a src={profile} href="#resume" className="resume">
+          <a href={resume} className="resume">
             view resume
           </a>
         </div>
