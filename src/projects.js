@@ -9,10 +9,14 @@ const projects = [
       link: 'https://smart-brain-x1.herokuapp.com/',
       code: 'https://github.com/krishan93985/smart-brain-x1',
       desc: [
-           `This App detects faces in your images by making use of a MACHINE LEARNING API ( Clarifai API )`,
-           `It registers and handles User profiles`,
-           `1 month to develop this project in learning phase`,
-           `TECH STACK :- React, Node, Express and PostgreSql. Deployed on heroku`
+           `Self-implemented authentication based User account App. detects faces in pictures`,
+           `Authentication system uses JWT tokens`,
+           `Dockerized backend containing microservices`,
+           `CRUD operations on user profile`,
+           `AWS lambda triggers rank emoji`,
+           `2 months to develop`,
+           `TECH STACK : React, Node, Express, PostgreSql, Docker, Docker-Compose, CircleCi`,
+           `Deployed on heroku Through CI/CD pipeline`
       ]
     },
     {
@@ -21,10 +25,12 @@ const projects = [
         src:   robofriends,
         code: 'https://github.com/krishan93985/robofriends',
         link: 'https://krishan93985.github.io/robofriends/',
-        desc: [`This App filters Your Robo Friends`,
-              `It uses JSON Placeholder API to fetch your friends`,
-              `2 weeks to develop this project in learning phase`,
-               `TECH STACK :- React and "Redux For State Management ". Deployed on Github Pages`
+        desc: [`This App filters Your Robo Friends fetched from JSON Placeholder API`,
+              `Unit Testing using Jest, Enzyme, and Snapshots`,
+              `Progressive Web App`,
+              `1 month to develop`,
+              `TECH STACK : React, CircleCi and "Redux For State Management"`,
+              `Deployed on Github Pages using CI/CD pipeline`
         ] 
       },
     {
@@ -35,8 +41,8 @@ const projects = [
         link: 'https://krishan93985.github.io/myportfolio/',
         desc: [`This is My Developer Portfolio`,    
                `It is a kind of static website with a server to send Emails from employers like you`,
-               `1 week to develop this project`,
-               `TECH STACK :- React, Node, Express, and Nodemailer. Hosting on Github pages, Server on heroku`
+               `1 week to develop`,
+               `TECH STACK : React, Node, Express, and Nodemailer. Hosting on Github pages, Server on heroku`
         ] 
     }  
 ];
