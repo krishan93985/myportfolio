@@ -1,11 +1,10 @@
-import robofriends from './Components/Project/Assets/robofriends.png';
 import portfolio from './Components/Project/Assets/portfolio.png';
-import smartbrain from './Components/Project/Assets/smartbrain.png';
+import mongodb from './Components/Project/Assets/nosql.png';
 const projects = [
     {
       id: 1,
       title: 'Smart Brain',
-      src: smartbrain,
+      src:  "https://www.youtube.com/embed/Lboe7wndoWA",
       link: 'https://smart-brain-x1.herokuapp.com/',
       code: 'https://github.com/krishan93985/smart-brain-x1',
       desc: [
@@ -13,16 +12,19 @@ const projects = [
            `Authentication system uses JWT tokens`,
            `Dockerized backend containing microservices`,
            `CRUD operations on user profile`,
+           `Using 3rd party API to configure profile image`,
            `AWS lambda triggers rank emoji`,
+           `Code Splitting implemented`,
            `2 months to develop`,
            `TECH STACK : React, Node, Express, PostgreSql, Docker, Docker-Compose, CircleCi`,
            `Deployed on heroku Through CI/CD pipeline`
-      ]
+      ],
+      type:"video"
     },
     {
         id: 2,
         title: 'Robofriends',
-        src:   robofriends,
+        src:   "https://www.youtube.com/embed/HhOnoQBpoKA",
         code: 'https://github.com/krishan93985/robofriends',
         link: 'https://krishan93985.github.io/robofriends/',
         desc: [`This App filters Your Robo Friends fetched from JSON Placeholder API`,
@@ -31,8 +33,9 @@ const projects = [
               `1 month to develop`,
               `TECH STACK : React, CircleCi and "Redux For State Management"`,
               `Deployed on Github Pages using CI/CD pipeline`
-        ] 
-      },
+        ],
+        type:"video" 
+    },
     {
         id: 3,
         title: 'My Portfolio',
@@ -43,7 +46,20 @@ const projects = [
                `It is a kind of static website with a server to send Emails from employers like you`,
                `1 week to develop`,
                `TECH STACK : React, Node, Express, and Nodemailer. Hosting on Github pages, Server on heroku`
-        ] 
+        ],
+        type:"image" 
+    },
+    {
+      id: 4,
+      title: 'NoSQL RESTful API',
+      src: mongodb,
+      code: 'https://github.com/krishan93985/nosql-api',
+      link: 'https://github.com/krishan93985/nosql-api',
+      desc: [`This is a RESTful No-Sql API`,    
+             `CRUD operations performed for user and vender separately`,
+             `TECH STACK : MongoDB, Node, Express, Postman`
+      ],
+      type:"image"
     }  
 ];
 

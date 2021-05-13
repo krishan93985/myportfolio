@@ -3,16 +3,21 @@ import css3 from "./Assets/css3.png";
 import html5 from "./Assets/html5.png";
 import react from "./Assets/react.png";
 import redux from "./Assets/redux.png";
-import postgresql from "./Assets/postgresql.gif";
+import postgresql from "./Assets/postgresql.png";
 import nodejs from "./Assets/nodejs.png";
 import js from "./Assets/js.png";
 import cpp from "./Assets/cpp.png";
-import expressjs from "./Assets/expressjs.jpeg";
+import expressjs from "./Assets/express.png";
 import git from "./Assets/git.png";
 import github from "./Assets/github.png";
 import heroku from "./Assets/heroku.png";
 import npm from "./Assets/npm.png";
 import vscode from "./Assets/vscode.png";
+import mongodb from "./Assets/mongodb.png";
+import docker from "./Assets/docker.png";
+import jest from "./Assets/jest.png";
+import CircleCi from "./Assets/circleci.png";
+import jwt from "./Assets/jwt.jpg";
 import "./Techstack.css";
 
 function Techstack() {
@@ -33,6 +38,7 @@ function Techstack() {
         <img src={nodejs} alt="icon" />
         <img src={expressjs} alt="icon" />
         <img src={postgresql} alt="icon" />
+        <img src={mongodb} alt="icon" />
       </div>
       <h3>Development Tools</h3>
       <div
@@ -46,6 +52,10 @@ function Techstack() {
         <img src={vscode} alt="icon" />
         <img src={npm} alt="icon" />
         <img src={github} alt="icon" />
+        <img src={docker} alt="icon"/>
+        <img src={jest} alt="icon" />
+        <img src={CircleCi} alt="icon"/>
+        <img src={jwt} alt="icon" />
       </div>
     </div>
   );

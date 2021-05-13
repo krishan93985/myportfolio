@@ -22,6 +22,7 @@ function Projectarray() {
           Desc={project.desc}
           link={project.link}
           code={project.code}
+          type={project.type}
         />
       ))}
       <br />

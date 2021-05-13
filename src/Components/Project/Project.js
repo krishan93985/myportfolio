@@ -4,8 +4,8 @@ import "./Project.css";
 
 const btnName = "See Live";
 
-function Project({ useKey, Title, Src, Desc, link, code }) {
-  return (
+function Project({ useKey, Title, Src, Desc, link, code, type }) {
+    return (
     <div className="element area">
       <div
         className="exp"
@@ -26,16 +26,18 @@ function Project({ useKey, Title, Src, Desc, link, code }) {
           </a>
         </span>
       </div>
-      <a
+      <section
         href={link}
         className="wrapper"
         data-aos="fade-left"
         data-aos-once="true"
-        data-aos-delay="500"
+        data-aos-delay="300"
         data-aos-anchor-placement=".exp"
       >
-        <img src={Src} alt="icon" />
-      </a>
+      {type === "image"?<img id="portfolio-image" src={Src} alt="icon" style={{cursor:"pointer"}}/>  :
+        <iframe width="560" height="315" src={Src} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+      }
+      </section>
     </div>
   );
 }

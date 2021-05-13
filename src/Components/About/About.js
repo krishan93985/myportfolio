@@ -47,7 +47,7 @@ function About() {
             </li>
             <li>
               I have learned web development so far and heading towards learning
-              curve of <span>Cloud Computing</span> and <span>A.I.</span>
+              curve of <span>Cloud Computing</span>
             </li>
             <li>
               I keep learning new tools and technologies and feel an Identity

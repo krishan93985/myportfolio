@@ -55,14 +55,14 @@
     margin:0 5px;
 }
 
-.area img,.wrapper{
+.area iframe,.area img,.wrapper{
     justify-self: left;
     align-self:center;
     max-height:400px;
     width:75%;
 }
 
-.area img{
+.area iframe,.area img{
     width:100%;
 }
 
@@ -73,7 +73,7 @@
     .exp li{
         font-size:19px;
     }
-    .area img,.wrapper{
+    .area iframe,.area img,.wrapper{
         justify-self: center;
         max-width:90%;
         margin:0 auto;
@@ -87,7 +87,7 @@
 }
 
 @media only screen and (max-width:400px){
-    .Code,.area img{
+    .Code,.area iframe,.area img{
         cursor:none;
     }    
 }
