@@ -43,7 +43,7 @@ const projects = [
         code: 'https://github.com/krishan93985/myportfolio',
         link: 'https://krishan93985.github.io/myportfolio/',
         desc: [`This is My Developer Portfolio`,    
-               `It is a kind of static website with a server to send Emails from employers like you`,
+               `Website with a server to send Emails from employers like you`,
                `1 week to develop`,
                `TECH STACK : React, Node, Express, and Nodemailer. Hosting on Github pages, Server on heroku`
         ],
