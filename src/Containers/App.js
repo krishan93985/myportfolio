@@ -12,8 +12,15 @@ import "./App.css";
 function App() {
   const [loaded, setload] = useState(false);
 
+  const invokeServer = async () => {
+    const jsonServerData = await fetch(`${process.env.REACT_APP_BACKEND_URL}`,{method:'get', headers:{'Content-type':'application/json'}});
+    const serverData = await jsonServerData.json();
+    console.log("Backend Server Says ",serverData);
+  }
+
   useEffect(() => {
     setload(true);
+    invokeServer();
   }, []);
 
   window.onscroll = function () {

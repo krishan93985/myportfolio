@@ -4,6 +4,10 @@
     padding-top:1.5rem;
 }
 
+.element ul li{
+    list-style-type:square;
+}
+
 .area{
     display:grid;
     margin-top:7.5rem;
@@ -66,6 +70,11 @@
     width:100%;
 }
 
+.teamMember{
+    color:gold;
+    text-decoration: none;
+}
+
 @media only screen and (max-width:950px){
     .exp{
         width:80%;
@@ -79,7 +88,7 @@
         margin:0 auto;
     }
     .Code{
-        font-size:18px;
+        font-size:17px;
     }
     .area{
          margin-top:4rem;        
@@ -90,4 +99,7 @@
     .Code,.area iframe,.area img{
         cursor:none;
     }    
+    .exp li{
+        line-height: 2.1rem;
+    }
 }

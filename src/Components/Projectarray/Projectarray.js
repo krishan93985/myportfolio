@@ -23,6 +23,7 @@ function Projectarray() {
           link={project.link}
           code={project.code}
           type={project.type}
+          teamMembers={project.teamMembers}
         />
       ))}
       <br />
