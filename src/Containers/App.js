@@ -13,8 +13,7 @@ function App() {
   const [loaded, setload] = useState(false);
 
   const invokeServer = async () => {
-    console.log(secrets.REACT_APP_BACKEND_URL)
-    const jsonServerData = await fetch(`${secrets.REACT_APP_BACKEND_URL}`,{method:'get', headers:{'Content-type':'application/json'}});
+    const jsonServerData = await fetch(`https://lit-hollows-13144.herokuapp.com`,{method:'get', headers:{'Content-type':'application/json'}});
     const serverData = await jsonServerData.json();
     console.log("Backend Server Says ",serverData);
   }

@@ -13,7 +13,7 @@ function Form() {
     try {
       if (name && email && message) {
         setPending(true);
-        const response = await fetch(`${secrets.REACT_APP_BACKEND_URL}/contact`, {
+        const response = await fetch(`https://lit-hollows-13144.herokuapp.com/contact`, {
           method: "post",
           headers: { "Content-type": "application/json" },
           body: JSON.stringify({
