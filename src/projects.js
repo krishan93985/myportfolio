@@ -34,7 +34,7 @@ const projects = [
       `Merging audio tracks using AudioContext Web API`,
       `Download work as pdf or Capture current screen`,
       `Array manipulation handles Slide Controls`,
-      `Two weeks to develop`
+      `Two weeks to develop`,
       `Work is saved in the browser to resume it in future`,
       `TECH STACK : Html5, CSS3, JavaScript, MediaStream, Canvas and AudioContext Web APIs, IndexedDB, LocalStorage, Array Data Structure, jspdf and html2canvas libraries`,
       `Deployed on vercel`
@@ -74,7 +74,7 @@ const projects = [
         code: 'https://github.com/krishan93985/myportfolio',
         link: 'https://krishan93985.github.io/myportfolio/',
         desc: [`This is My Developer Portfolio`,
-               `Styled with pure CSS3`    
+               `Styled with pure CSS3`,    
                `Website with a server to send Emails from employers like you`,
                `One week to develop`,
                `TECH STACK : React, Node, Express, and Nodemailer. Hosting on Github pages, Server on heroku`
