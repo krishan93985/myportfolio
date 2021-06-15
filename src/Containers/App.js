@@ -13,8 +13,8 @@ function App() {
   const [loaded, setload] = useState(false);
 
   const invokeServer = async () => {
-    console.log(process.env.REACT_APP_BACKEND_URL)
-    const jsonServerData = await fetch(`${process.env.REACT_APP_BACKEND_URL}`,{method:'get', headers:{'Content-type':'application/json'}});
+    console.log(secrets.REACT_APP_BACKEND_URL)
+    const jsonServerData = await fetch(`${secrets.REACT_APP_BACKEND_URL}`,{method:'get', headers:{'Content-type':'application/json'}});
     const serverData = await jsonServerData.json();
     console.log("Backend Server Says ",serverData);
   }
