@@ -34,6 +34,7 @@ const projects = [
       `Merging audio tracks using AudioContext Web API`,
       `Download work as pdf or Capture current screen`,
       `Array manipulation handles Slide Controls`,
+      `Two weeks to develop`
       `Work is saved in the browser to resume it in future`,
       `TECH STACK : Html5, CSS3, JavaScript, MediaStream, Canvas and AudioContext Web APIs, IndexedDB, LocalStorage, Array Data Structure, jspdf and html2canvas libraries`,
       `Deployed on vercel`
@@ -59,7 +60,7 @@ const projects = [
         desc: [`This App filters Your Robo Friends fetched from JSON Placeholder API`,
               `Unit Testing using Jest, Enzyme, and Snapshots`,
               `Progressive Web App`,
-              `1 month to develop`,
+              `One month to develop`,
               `TECH STACK : React, CircleCi and "Redux For State Management"`,
               `Deployed on Github Pages using CI/CD pipeline`
         ],
@@ -72,9 +73,10 @@ const projects = [
         src: portfolio,
         code: 'https://github.com/krishan93985/myportfolio',
         link: 'https://krishan93985.github.io/myportfolio/',
-        desc: [`This is My Developer Portfolio`,    
+        desc: [`This is My Developer Portfolio`,
+               `Styled with pure CSS3`    
                `Website with a server to send Emails from employers like you`,
-               `1 week to develop`,
+               `One week to develop`,
                `TECH STACK : React, Node, Express, and Nodemailer. Hosting on Github pages, Server on heroku`
         ],
         type:"image",
