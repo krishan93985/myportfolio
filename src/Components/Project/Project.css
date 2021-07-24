@@ -35,8 +35,8 @@
 
 .exp li{
     font-family:'Mukta',sans-serif;
-    line-height:2rem;
-    font-size:21px;
+    line-height:1.9rem;
+    font-size:19px;
     letter-spacing: 1px;
     padding-bottom:10px;
 }
@@ -80,7 +80,7 @@
         width:80%;
     }
     .exp li{
-        font-size:19px;
+        font-size:18px;
     }
     .area iframe,.area img,.wrapper{
         justify-self: center;
@@ -98,8 +98,5 @@
 @media only screen and (max-width:400px){
     .Code,.area iframe,.area img{
         cursor:none;
-    }    
-    .exp li{
-        line-height: 2.1rem;
     }
 }

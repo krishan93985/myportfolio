@@ -1,15 +1,25 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Button from "../Button/Button";
 import "./Project.css";
 
 const btnName = "See Live";
 
 function Project({ useKey, Title, Src, Desc, link, code, type, teamMembers }) {
+    const [dataAos,setDataAos] = useState({ desc:'fade-right', media:'fade-left'});
+    
+    useEffect(() => {
+      console.log(window.innerWidth)
+      if(window.innerWidth < 700){
+        setDataAos({desc:'fade-up',media:'fade-up'})
+        console.log('done')
+      }
+    },[])
+
     return (
     <div className="element area">
       <div
         className="exp"
-        data-aos="fade-right"
+        data-aos={dataAos.desc}
         data-aos-delay="150"
         data-aos-once="true"
       >
@@ -32,7 +42,7 @@ function Project({ useKey, Title, Src, Desc, link, code, type, teamMembers }) {
       <section
         href={link}
         className="wrapper"
-        data-aos="fade-left"
+        data-aos={dataAos.media}
         data-aos-once="true"
         data-aos-delay="300"
         data-aos-easing="ease-in"
